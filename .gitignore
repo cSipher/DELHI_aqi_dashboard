@@ -1,13 +1,24 @@
 # Python
-.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# PyCharm
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDEs
 .idea/
+.vscode/
 
-# Streamlit
-.streamlit/secrets.toml
+# OS
+.DS_Store
+Thumbs.db
 
-# Environment
+# Environment variables
 .env
+
+# Data / secrets (optional)
+*.log
